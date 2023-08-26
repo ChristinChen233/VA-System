@@ -1,0 +1,97 @@
+/* general text formatting */
+
+
+ h1, h2, h3, nav, footer {
+  font-family: Georgia, Cambria, "Times New Roman", serif;
+ }
+ body {
+    color: #000000;
+    font-family: "Lucida Sans", Verdana, Arial, sans-serif;
+    /* font-size: 80%; */
+    background-color: #e8eef6;
+ }
+
+ iframe {
+   width: 100%;
+   border: none;
+ }
+ 
+ 
+ table {
+    border: collapse; 
+    border-spacing: 0;
+    background-color: #c6dcf8;
+    border: 1pt solid  #26456c;
+ }
+ 
+ table tbody td{
+    /* border-top: 1pt solid  #1f3c5f;    */
+    /* border-bottom: 1pt solid  #1f3c5f; */
+    border: 0.75pt dotted  #26456c;
+    line-height: 1.5em;
+    vertical-align: middle;
+    padding: 0.5em 0.5em;
+    /* background-color: #bbd6f7; */
+ }
+
+ .table-head {
+    font-size: larger;
+    font-weight: bold;
+    color: #7e241b;
+    text-align: center;
+ }
+ 
+ table tbody td:first-child  {
+    text-align: left;
+    padding: 0.5em 0.5em;   
+ }
+ 
+ .smallImg {
+    width: 800px;
+    height: 100%;
+    position:relative;
+    top:auto;
+ }
+
+ .nav {
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   padding: 3rem 0.5rem;
+ }
+
+ a {
+   /* width: 100%;
+   font-size: 100%; */
+   border: none;
+   display: inline-block;
+   background-color: rgb(198, 229, 247);
+   padding: 1%;
+   color: rgb(4, 70, 156);
+   cursor: pointer;
+   font-size: 100%;
+   font-weight: bold;
+ }
+
+ a:link, a:visited {
+   background-color: #75a5d6;
+   color: rgb(240, 240, 241);
+   padding: 14px 25px;
+   text-align: center;
+   text-decoration: none;
+   /* border: 2px solid rgb(77, 101, 167); */
+ }
+ 
+ a:hover, a:active {
+   background-color: rgb(142, 111, 198);
+ }
+
+ .Note {
+   font-size: large;
+   font-weight: bold;
+   color: #7e241b;
+ }
+
+ label{
+   color: #1f3c5f;
+ }
