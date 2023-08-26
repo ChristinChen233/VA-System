@@ -16,5 +16,10 @@ layout = html.Div(children=[
     html.Iframe(
             src="./assets/highD.html",
             style={"height": "1067px", "width": "100%"},
-        )
+        ),
+    html.H1(),
+    html.Iframe(
+            src="./assets/highD_scatter.html",
+            style={"height": "1067px", "width": "100%"},
+        ),
 ])

@@ -9,7 +9,7 @@ dash.register_page(
     name='Data Set'
 )
 
-df = pd.read_csv("../movies_high_income.csv")
+df = pd.read_csv("./data/movies_high_income.csv")
 df = df.drop(df.columns[[0]],axis=1)
 
 layout = html.Div(children=[
