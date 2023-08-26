@@ -13,7 +13,7 @@ dash.register_page(
     name='Dynamic Visulization'
 )
 
-df = pd.read_csv("../movies_high_income.csv")
+df = pd.read_csv("./data/movies_high_income.csv")
 all_directors = df['Directors'].unique()
 years = df['Year'].unique()
 years_num = years.astype(int)
