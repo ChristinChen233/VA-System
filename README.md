@@ -5,3 +5,9 @@
 
 # Manual
 - git clone the repository, and then run python main.py, accesss http://127.0.0.1:8050/ to view the website
+
+# Project Description
+The visualization analysis includes the following components:
+1. Analyze categorical data using techniques such as TreeMap.
+2. Analyze high-dimensional data using methods like Principal Component Analysis (PCA), KMeans clustering, and ggpair.
+3. Visualization system (website): Utilize technologies like Dash, plotly.express, HTML, and JavaScript to implement dynamic data analysis visulisations
