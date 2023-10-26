@@ -1,7 +1,7 @@
 # Visualization Analysis System for Movie Data
 The visualization analysis includes the following components:
 1. Analyze categorical data using techniques such as TreeMap.
-2. Analyze high-dimensional data using methods like Principal Component Analysis (PCA), KMeans clustering, and ggpair.
+2. Analyze high-dimensional data using methods such as parallel category graph, one way anova test.
 3. Visualization system (website): Utilize technologies like Dash, plotly.express, HTML, and JavaScript to implement dynamic data analysis visulisations
 4. The complete data report is available for access in the file named 'report.pdf'.
 
