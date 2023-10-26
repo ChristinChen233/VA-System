@@ -4,6 +4,7 @@ The visualization analysis includes the following components:
 2. Analyze high-dimensional data using methods such as parallel category graph, one way anova test.
 3. Visualization system (website): Utilize technologies like Dash, plotly.express, HTML, and JavaScript to implement dynamic data analysis visulisations
 4. The complete data report is available for access in the file named 'report.pdf'.
+The whole project, included codes, report writing, analysis, data storytelling are completed by Ruoshui Chen
 
 ## Manual
 1. git clone the repository
