@@ -39,8 +39,8 @@ def render_income_year():
     #fig = make_subplots(specs=[[{"secondary_y": True}]])
     fig = go.Figure(
     data=[
-        go.Bar(name='Total Income/$Million', x=years, y=sum, yaxis='y', offsetgroup=1),
-        go.Bar(name='Number of Directors', x=years, y=num_dit, yaxis='y2', offsetgroup=2)
+        go.Scatter(name='Total Income/$Million', x=years, y=sum, yaxis='y', mode="lines"),
+        go.Scatter(name='Number of Directors', x=years, y=num_dit, yaxis='y2', mode="lines")
     ],
     layout={
         'yaxis': {'title': 'Total Income/$Million'},
@@ -62,7 +62,8 @@ def render_income_year():
     return html.Div(dcc.Graph(figure = fig))
 
 
-layout = html.Div(children=[
+layout = html.Div(
+    children=[
     html.H2("Story Line of Movie Data from "+str(years_num.min())+" to "+str(years_num.max())),
     html.H3("Overview"),
     render_income_year(),
@@ -88,7 +89,7 @@ layout = html.Div(children=[
 	html.Div([
         "Select Directors: ",
         dcc.Dropdown(all_directors,
-        value="Steven Spielberg",
+        value="James Cameron",
         id='director-select')
     ]),
     html.Div(id='director-output'),
@@ -123,7 +124,7 @@ def update_year_selected(input_value):
 def update_year_graph(input):
     #print(type(input))
     dfsub = df[df['Year'] == int(input)]
-    print(dfsub.head)
+    # print(dfsub.head)
     fig = px.bar(dfsub, x="Directors", y="Income_million", 
              color="Genre",
            hover_data=['Directors','Title', 'Stars'],
