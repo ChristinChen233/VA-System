@@ -6,6 +6,12 @@ The visualization analysis includes the following components:
 4. The complete data report is available for access in the file named 'report.pdf'.
 5. Author: The whole project, included codes, report writing, analysis, data storytelling, etc., is completed by Ruoshui Chen
 
+# Project Objective
+Our objective is to analyze high-income movies and provide insights for global movie makers, including movie directors, producers, etc., regarding financial success. To achieve this, we have defined a series of subtasks that progress from simple to complex, allowing for a step-by-step and in-depth analysis. Each subtask aims to tell a data story through aesthetic and intuitive visualizations.
+
+# Project Objective
+Our objective is to analyze high-income movies and provide insights for global movie makers, including movie directors, producers, etc., regarding financial success. To achieve this, we have defined a series of subtasks that progress from simple to complex, allowing for a step-by-step and in-depth analysis. Each subtask aims to tell a data story through aesthetic and intuitive visualizations.
+
 # Data Set
 The original full data set I choose to use is [Top 100 popular movies from 2003 to 2022 (iMDB)](https://www.kaggle.com/datasets/georgescutelnicu/top-100-popular-movies-from-2003-to-2022-imdb). Specifically in VA system, I focus on visualizing high income movies. So our data set is the sub data set that the income of those movies are all higher than 256.70.  
 After data cleaning described in the implementation part below, some samples are further dropped, and we add 2 new columns which are called Income_million and Budget_million, for visualising 2 original attributes in numerical types and consistent units.   
@@ -19,14 +25,6 @@ The new dataset (extracted subsets) contains 13 attributes as follows and our an
 - Genre/s: The genre/s of the movie
 - Budget_million: The money spent on the movie
 - Income_million: The money earned by the movie
-
-# Manual
-1. git clone the repository
-2. cd to the project folder and run python main.py
-3. accesss http://127.0.0.1:8050/ to view the website
-
-# Project Objective
-Our objective is to analyze high-income movies and provide insights for global movie makers, including movie directors, producers, etc., regarding financial success. To achieve this, we have defined a series of subtasks that progress from simple to complex, allowing for a step-by-step and in-depth analysis. Each subtask aims to tell a data story through aesthetic and intuitive visualizations.
 
 # Analysis Results
 A common theme observed through our visual analysis system is the prominence of Intellectual Properties (IPs). The high-income movies mentioned in the top rankings are predominantly well-known series movies that have gained international recognition. These movies have transcended the realm of mere entertainment and have become iconic properties that captivate audiences with their unique storylines and immersive worlds. For example, the magical and enchanting universe of the Harry Potter movies has resonated with people worldwide, appealing to their emotions and captivating their hearts.  
