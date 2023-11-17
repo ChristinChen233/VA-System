@@ -6,8 +6,8 @@ The visualization analysis includes the following components:
 4. The complete data report is available for access in the file named 'report.pdf'.
 5. Author: The whole project, included codes, report writing, analysis, data storytelling, etc., is completed by Ruoshui Chen
 
-# Project Objective
-Our objective is to analyze high-income movies and provide insights for global movie makers, including movie directors, producers, etc., regarding financial success. To achieve this, we have defined a series of subtasks that progress from simple to complex, allowing for a step-by-step and in-depth analysis. Each subtask aims to tell a data story through aesthetic and intuitive visualizations.
+# Manual
+git clone the repository, open the working directory and run python main.py, then accesss the website by http://127.0.0.1:8050/
 
 # Project Objective
 Our objective is to analyze high-income movies and provide insights for global movie makers, including movie directors, producers, etc., regarding financial success. To achieve this, we have defined a series of subtasks that progress from simple to complex, allowing for a step-by-step and in-depth analysis. Each subtask aims to tell a data story through aesthetic and intuitive visualizations.
