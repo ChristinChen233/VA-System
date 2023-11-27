@@ -3,7 +3,7 @@ The visualization analysis includes the following components:
 1. Analyze categorical data using techniques such as TreeMap.
 2. Analyze high-dimensional data using methods such as parallel category graph, one way anova test.
 3. Visualization system (website): Utilize technologies like Dash, plotly.express, HTML, and JavaScript to implement dynamic data analysis visulisations
-4. The complete data report is available for access in the file named 'report.pdf'.
+4. The complete data report is available for access in the file named <strong>'report.pdf'</strong>.
 5. Author: The whole project, included codes, report writing, analysis, data storytelling, etc., is completed by Ruoshui Chen
 
 # Manual
@@ -13,7 +13,7 @@ git clone the repository, open the working directory and run python main.py, the
 Our objective is to analyze high-income movies and provide insights for global movie makers, including movie directors, producers, etc., regarding financial success. To achieve this, we have defined a series of subtasks that progress from simple to complex, allowing for a step-by-step and in-depth analysis. Each subtask aims to tell a data story through aesthetic and intuitive visualizations.
 
 # Data Set
-The original full data set I choose to use is [Top 100 popular movies from 2003 to 2022 (iMDB)](https://www.kaggle.com/datasets/georgescutelnicu/top-100-popular-movies-from-2003-to-2022-imdb). Specifically in VA system, I focus on visualizing high income movies. So our data set is the sub data set that the income of those movies are all higher than 256.70.  
+The original full data set I choose to use is [Top 100 popular movies from 2003 to 2022 (iMDB)](https://www.kaggle.com/datasets/georgescutelnicu/top-100-popular-movies-from-2003-to-2022-imdb). Specifically in VA system, I focus on visualizing high income movies. So our data set is the sub data set that the income of those movies are all higher than <strong>256.70</strong>.  
 After data cleaning described in the implementation part below, some samples are further dropped, and we add 2 new columns which are called Income_million and Budget_million, for visualising 2 original attributes in numerical types and consistent units.   
 The new dataset (extracted subsets) contains 13 attributes as follows and our analysis only relate 9 attributes and 396 samples (can be found in folder <strong>data</strong>)
 - Title: The movie name
