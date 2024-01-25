@@ -4,7 +4,7 @@ The visualization analysis includes the following components:
 2. Analyze high-dimensional data using methods such as parallel category graph, one way anova test.
 3. Visualization system (website): Utilize technologies like Dash, plotly.express, HTML, and JavaScript to implement dynamic data analysis visulisations
 4. The complete data report is available for access in the file named <strong>'report.pdf'</strong>.
-5. Author: The whole project, included codes, report writing, analysis, data storytelling, etc., is completed by Ruoshui Chen
+5. Author: Ruoshui Chen
 
 # Manual
 git clone the repository, open the working directory and run python main.py, then accesss the website by http://127.0.0.1:8050/
