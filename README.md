@@ -15,7 +15,7 @@ Our objective is to analyze movie data and provide insights for global movie mak
 # Data Set
 The original full data set I choose to use is [Top 100 popular movies from 2003 to 2022 (iMDB)](https://www.kaggle.com/datasets/georgescutelnicu/top-100-popular-movies-from-2003-to-2022-imdb). 
 After data cleaning, some samples are dropped, and we add 2 new columns which are called Income_million and Budget_million, for visualising 2 original attributes in numerical types and consistent units.   
-The new dataset (extracted subsets) contains 13 attributes as follows and our analysis only relate 9 attributes and 396 samples (can be found in folder <strong>data</strong>)
+The new dataset (extracted subsets) contains 13 attributes as follows and our analysis only relate 9 attributes and 1581 samples (can be found in folder <strong>data</strong>)
 - Title: The movie name
 - Rating: The rating of the movie according to IMDB users
 - Year: The release year of the movie
